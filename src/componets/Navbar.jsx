@@ -3,7 +3,7 @@ import Logo from '../assets/logo.jpg'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFileAlt} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import { Link,  animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import { Link as DomLink} from 'react-router-dom'
+
 
 
 export default function Navbar() {
@@ -127,13 +127,12 @@ export default function Navbar() {
                     E-Mail <HiOutlineMail size={30}/>
                 </a>
             </li> */}
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600'>
-            {/* <a className='flex justify-between items-center w-full text-gray-300' href="/https://docs.google.com/document/d/1c0BEpd6f863Dco2C_0xFxsO3_JoAlcK91JBSN1nu-3A/edit?usp=sharing">
+           
+
+               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                <a className='flex justify-between items-center w-full text-gray-300' href='https://docs.google.com/document/d/1c0BEpd6f863Dco2C_0xFxsO3_JoAlcK91JBSN1nu-3A/edit?usp=sharing' target='_blank' rel="noreferrer">
                     Resume <FaFileAlt size={30}/>
-                </a> */}
-                <DomLink to='/https://docs.google.com/document/d/1c0BEpd6f863Dco2C_0xFxsO3_JoAlcK91JBSN1nu-3A/edit?usp=sharing'>
-                Resume <FaFileAlt size={30}/>
-                </DomLink>
+                </a>
             </li>
         </ul>
       </div>
