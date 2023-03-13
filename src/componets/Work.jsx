@@ -5,6 +5,7 @@ import shoppingCart from "../assets/shopping-app2.png";
 import anime from '../assets/anime.png'
 import memories from '../assets/memories.png'
 import freeCode from '../assets/freecode.png'
+import commerce from '../assets/commerce.png'
 
 export default function Work() {
   return (
@@ -26,17 +27,17 @@ export default function Work() {
 
           {/* Indivdual Card item/box */}
           <div
-            style={{ backgroundImage: `url(${shoppingCart})` }}
+            style={{ backgroundImage: `url(${commerce})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Shopping Cart React JS Application, this app is deployed using Netlify. Very basic app that works on my state management using context api
+              <span className="text-base font-bold text-white tracking-wider">
+                E-Commerce Full Stack React JS Application, this app is deployed using Render. I used redux toolkit to handle my state values, and also used redux toolkit persist to persist my state. This app also has strapi and stripe configurations.
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://react-state-store.netlify.app/"
+                  href="https://ecommerce-app-4n5y.onrender.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -45,12 +46,22 @@ export default function Work() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/favourflav2/React-Shopping-Cart"
+                  href="https://github.com/favourflav2/E-Commerce-Backend-Render"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                     Backend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/E-Commerce-Render-FrontEnd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
                   </button>
                 </a>
               </div>
