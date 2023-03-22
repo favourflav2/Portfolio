@@ -6,6 +6,7 @@ import anime from '../assets/anime.png'
 import memories from '../assets/memories.png'
 import freeCode from '../assets/freecode.png'
 import commerce from '../assets/commerce.png'
+import college from '../assets/college.png'
 
 export default function Work() {
   return (
@@ -70,13 +71,58 @@ export default function Work() {
 
           {/* Indivdual Card item/box */}
           <div
+            style={{ backgroundImage: `url(${college})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className=" text-sm font-bold text-white tracking-wider ">
+              This app I incorporated the College Board api, with this a user can search a college and retrieve valuable data. If a user is logged in and authenticated they can save colleges and view them in their dashboard.
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://college-app-frontend.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/Full-Stack-College-FrontEnd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/Full-Stack-College-Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Backend Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+          {/* Indivdual Card item/box */}
+          <div
             style={{ backgroundImage: `url(${anime})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className=" text-base font-bold text-white tracking-wider ">
-                This is an anime app I deployed using render for my backend and netlify for my frontend. I used a lot of concepts from other projects I created from youtube. Using Mongdb to store users and authenticating users with jwt. And on my frontend using tailwind css, a little of mbd bootstrap, and react redux to hanlde my state. 
+              <span className=" text-sm font-bold text-white tracking-wider ">
+                This is an anime app I deployed using render for my backend and netlify for my frontend. I used a lot of concepts from other projects I created from youtube. Using Mongdb to store users and authenticating users with jwt. Logged in users will be able to save animes to their dashboard pages.
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -165,7 +211,7 @@ export default function Work() {
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className=" text-base font-bold text-white tracking-wider">
+              <span className=" text-sm font-bold text-white tracking-wider">
                 I have completed the JavaScript Algorithms and Data Structures section from freecodecamp. I periodically go back and practice in between me working on building apps.
               </span>
               <div className="pt-8 text-center">
