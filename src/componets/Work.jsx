@@ -126,7 +126,7 @@ export default function Work() {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://bestanimesfavourweb.netlify.app"
+                  href="https://anime-app.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
