@@ -168,7 +168,8 @@ export default function Work() {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className=" text-sm font-bold text-white tracking-wider">
-              This is a MERN stack app that utilizes Nodejs and Express for the backend and React for the front end. A user that is logged in will be authenticated using jsonwebtokens and then be able to like, edit, and delete posts.
+              This is a MERN stack app that utilizes Nodejs and Express for the backend and React for the front end. A user that is logged in will be authenticated using jsonwebtokens and then be able to like, edit, and delete posts. This a pretty hefty app, it takes a little to load. The like functionality pushes a logged in users ID into the post users likes array. Clicking the same like button will filter the likes array and delete the ID, unliking the post. You can then go to your dashboard page where you can edit or delete your posts.
+
  
               </span>
               <div className="pt-8 text-center">

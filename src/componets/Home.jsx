@@ -13,7 +13,7 @@ export default function Home() {
         <p className='text-pink-600'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Favour</h1>
         <h2 className='text-4xl sm:text7xl font-bold text-[#8892b0]'>I'm learning to become a developer</h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>I have completed The Odin Project and the javascript section on FreeCodeCamp. However, im still learning and building projects everyday</p>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'>I have completed The Odin Project and the javascript section on FreeCodeCamp. However, im still learning and building projects everyday. </p>
         
         <div>
             <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work
