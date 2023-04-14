@@ -79,7 +79,7 @@ export default function Work() {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <div className="text-sm font-bold text-white tracking-wider p-2">
-              This was a complicated app for me but I learned a lot. Watched a youtube video mainly on the backend implementation. Focusing on the mongodb relations within modal. Each chat group and message modal have relations with each other in order making it easy to populate them and send them back to the frontend as a whole singular object.
+              This was a complicated app for me but I learned a lot. Watched a youtube video mainly on the backend implementation. Focusing on the mongodb relations within modals. Each chat group and message modal have relations with each other in order to make it easy to populate them and send them back to the frontend as a whole singular object.
 
               <br />
 
