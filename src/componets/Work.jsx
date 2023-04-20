@@ -12,7 +12,7 @@ import vitamins from "../assets/vitamins.png"
 
 export default function Work() {
   return (
-    <div name="work" className="bg-[#0a192f] w-full md:h-screen text-gray-300">
+    <div name="work" className="bg-[#0a192f] w-full  text-gray-300 ">
       {/* Container */}
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Title of the work section */}
@@ -24,7 +24,7 @@ export default function Work() {
         </div>
 
         {/* Grid of all of my projects */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 h-full ">
 
 
 
@@ -220,7 +220,7 @@ export default function Work() {
               </div>
               <div className="pt-8 text-center">
                 <a
-                  href="https://college-app-frontend.onrender.com"
+                  href="https://vitamins-and-supplements.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
