@@ -8,6 +8,7 @@ import freeCode from '../assets/freecode.png'
 import commerce from '../assets/commerce.png'
 import college from '../assets/college.png'
 import chat from '../assets/chat.png'
+import vitamins from "../assets/vitamins.png"
 
 export default function Work() {
   return (
@@ -23,7 +24,7 @@ export default function Work() {
         </div>
 
         {/* Grid of all of my projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
 
 
 
@@ -207,7 +208,40 @@ export default function Work() {
           </div>
 
 
+            {/* Indivdual Card item/box */}
+          <div
+            style={{ backgroundImage: `url(${vitamins})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className=" text-sm font-bold text-white tracking-wider p-2">
+              This is a static landing page little to none functionality using flexbox and reusable componenents
+              </div>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://college-app-frontend.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/Vitamins-Landing-Page"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
+                  </button>
+                </a>
 
+                
+              </div>
+            </div>
+          </div>
 
             {/* Indivdual Card item/box */}
             <div
