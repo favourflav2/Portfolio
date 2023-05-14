@@ -9,6 +9,7 @@ import commerce from '../assets/commerce.png'
 import college from '../assets/college.png'
 import chat from '../assets/chat.png'
 import vitamins from "../assets/vitamins.png"
+import movie from "../assets/movie.png"
 
 export default function Work() {
   return (
@@ -60,6 +61,49 @@ export default function Work() {
 
                 <a
                   href="https://github.com/favourflav2/E-Commerce-Render-FrontEnd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Indivdual Card item/box */}
+          <div
+            style={{ backgroundImage: `url(${movie})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-sm font-bold text-white tracking-wider p-2">
+              This app I used the movie database as my api to fetch movies. A logged in user will be able to save movies.
+              </div>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://movie-website-ufqi.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/E-Commerce-Backend-Render"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                     Backend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/Movie_Backend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
