@@ -1,7 +1,4 @@
 import React from "react";
-import netflix from "../assets/netflix-app3.png";
-import cv from "../assets/cv-app.png";
-import shoppingCart from "../assets/shopping-app2.png";
 import anime from '../assets/anime.png'
 import memories from '../assets/memories.png'
 import freeCode from '../assets/freecode.png'
