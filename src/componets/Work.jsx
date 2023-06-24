@@ -7,6 +7,7 @@ import college from '../assets/college.png'
 import chat from '../assets/chat.png'
 import vitamins from "../assets/vitamins.png"
 import movie from "../assets/movie.png"
+import tv from "../assets/tv.png"
 
 export default function Work() {
   return (
@@ -58,6 +59,49 @@ export default function Work() {
 
                 <a
                   href="https://github.com/favourflav2/E-Commerce-Render-FrontEnd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Indivdual Card item/box */}
+          <div
+            style={{ backgroundImage: `url(${tv})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-sm font-bold text-white tracking-wider p-2">
+              This a Tv app is basically the same as my Movie app. However I used typescript with react, and instead of using mongodb for my database I used PostgresQL. Have a look around, logged in users will be able to save shows and be able to view them
+              </div>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://tv-app-frontend.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/tvApp-Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                     Backend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/tvApp_Frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -291,7 +335,7 @@ export default function Work() {
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <div className=" text-sm font-bold text-white tracking-wider p-2">
+              <div className=" text-sm font-bold text-white tracking-wider p-4">
               This is a MERN stack app that utilizes Nodejs and Express for the backend and React for the front end. A user that is logged in will be authenticated using jsonwebtokens and then be able to like, edit, and delete posts. This a pretty hefty app, it takes a little to load. The like functionality pushes a logged in users ID into the post users likes array. Clicking the same like button will filter the likes array and delete the ID, unliking the post. You can then go to your dashboard page where you can edit or delete your posts.
 
  

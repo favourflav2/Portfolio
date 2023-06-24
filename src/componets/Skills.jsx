@@ -6,6 +6,8 @@ import jsLogo from '../assets/js5.png'
 import githubLogo from '../assets/github.png'
 import mongo from '../assets/mongo.jpg'
 import node from '../assets/node.png'
+import sql from "../assets/sql.png"
+import typescript from "../assets/typescript.svg.png"
 
 export default function Skills() {
   return (
@@ -51,6 +53,16 @@ export default function Skills() {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img src={mongo} alt="React" className='w-20 mx-auto rounded-[40%]'/>
                     <p className='my-4'>MOOGOOSE</p>
+                </div>
+
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img src={sql} alt="React" className='w-20 mx-auto rounded-[40%]'/>
+                    <p className='my-4'>PostgreSQL</p>
+                </div>
+
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img src={typescript} alt="React" className='w-20 mx-auto rounded-[40%]'/>
+                    <p className='my-4'>Typescript</p>
                 </div>
             </div>
         </div>
