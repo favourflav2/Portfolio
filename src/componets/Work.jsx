@@ -8,6 +8,8 @@ import chat from '../assets/chat.png'
 import vitamins from "../assets/vitamins.png"
 import movie from "../assets/movie.png"
 import tv from "../assets/tv.png"
+import sqlCert from "../assets/sqlCert.png"
+import foodApp from "../assets/foodApp.png"
 
 export default function Work() {
   return (
@@ -59,6 +61,49 @@ export default function Work() {
 
                 <a
                   href="https://github.com/favourflav2/E-Commerce-Render-FrontEnd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Indivdual Card item/box */}
+          <div
+            style={{ backgroundImage: `url(${foodApp})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-sm font-bold text-white tracking-wider p-2">
+              This is a food ordering app, a user will be able to select what they want to buy. Then be redirected to a stripe checkout session.
+              </div>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://food-app-frontend-cbb2.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/Food-App-Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                     Backend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/Food-App-Frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -164,7 +209,7 @@ export default function Work() {
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <div className="text-sm font-bold text-white tracking-wider p-2">
+              <div className="sm:text-sm text-[12px] font-bold text-white tracking-wider sm:p-2 p-5">
               This was a complicated app for me but I learned a lot. Watched a youtube video mainly on the backend implementation. Focusing on the mongodb relations within modals. Each chat group and message modal have relations with each other in order to make it easy to populate them and send them back to the frontend as a whole singular object.
 
               <br />
@@ -177,7 +222,7 @@ export default function Work() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold sm:text-lg text-[13px]">
                     Demo
                   </button>
                 </a>
@@ -186,7 +231,7 @@ export default function Work() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold sm:text-lg text-[13px]">
                      Backend Code
                   </button>
                 </a>
@@ -196,7 +241,7 @@ export default function Work() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold sm:text-lg text-[13px]">
                     Frontend Code
                   </button>
                 </a>
@@ -250,11 +295,11 @@ export default function Work() {
 
 
           {/* Indivdual Card item/box */}
-          <div
+         {/* <div
             style={{ backgroundImage: `url(${anime})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+            
             <div className="opacity-0 group-hover:opacity-100">
               <div className=" text-sm font-bold text-white tracking-wider p-2">
                 This is an anime app I deployed using render for my backend and netlify for my frontend. I used a lot of concepts from other projects I created from youtube. Using Mongdb to store users and authenticating users with jwt. Logged in users will be able to save animes to their dashboard pages.
@@ -290,7 +335,7 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div>*/}
 
 
             {/* Indivdual Card item/box */}
@@ -301,7 +346,7 @@ export default function Work() {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <div className=" text-sm font-bold text-white tracking-wider p-2">
-              This is a static landing page little to none functionality using flexbox and reusable componenents
+              This is a static landing page little to none functionality using flexbox and reusable componenents. I made this with react and mui.
               </div>
               <div className="pt-8 text-center">
                 <a
@@ -329,13 +374,14 @@ export default function Work() {
           </div>
 
             {/* Indivdual Card item/box */}
-            <div
+ 
+             {/* <div
             style={{ backgroundImage: `url(${memories})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+           
             <div className="opacity-0 group-hover:opacity-100">
-              <div className=" text-sm font-bold text-white tracking-wider p-4">
+              <div className=" sm:text-sm text-[12px] font-bold text-white tracking-wider p-4">
               This is a MERN stack app that utilizes Nodejs and Express for the backend and React for the front end. A user that is logged in will be authenticated using jsonwebtokens and then be able to like, edit, and delete posts. This a pretty hefty app, it takes a little to load. The like functionality pushes a logged in users ID into the post users likes array. Clicking the same like button will filter the likes array and delete the ID, unliking the post. You can then go to your dashboard page where you can edit or delete your posts.
 
  
@@ -346,7 +392,7 @@ export default function Work() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold sm:text-lg text-[13px]">
                     Demo
                   </button>
                 </a>
@@ -355,7 +401,7 @@ export default function Work() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold sm:text-lg text-[13px]">
                     Frontend Code
                   </button>
                 </a>
@@ -364,13 +410,13 @@ export default function Work() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold sm:text-lg text-[13px]">
                     Backend Code
                   </button>
                 </a>
               </div>
             </div>
-          </div>
+          </div>*/}
 
 
           {/* Indivdual Card item/box */}
@@ -380,9 +426,9 @@ export default function Work() {
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className=" text-sm font-bold text-white tracking-wider">
+              <div className=" text-sm font-bold text-white tracking-wider p-2">
                 I have completed the JavaScript Algorithms and Data Structures section from freecodecamp. I periodically go back and practice in between me working on building apps.
-              </span>
+              </div>
               <div className="pt-8 text-center">
                 {/* <a
                   href="https://bestanimesfavourweb.netlify.app"
@@ -415,6 +461,51 @@ export default function Work() {
               </div>
             </div>
           </div>
+
+          {/* Indivdual Card item/box */}
+          <div
+            style={{ backgroundImage: `url(${sqlCert})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className=" text-sm font-bold text-white tracking-wider p-2">
+                I have completed the Zero To Mastery's SQL section.
+              </div>
+              <div className="pt-8 text-center">
+                {/* <a
+                  href="https://bestanimesfavourweb.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/Anime-Full-Stack-Netlify"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/Anime-Full-Stack-Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Backend Code
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
