@@ -1,6 +1,4 @@
 import React from "react";
-import anime from '../assets/anime.png'
-import memories from '../assets/memories.png'
 import freeCode from '../assets/freecode.png'
 import commerce from '../assets/commerce.png'
 import college from '../assets/college.png'
@@ -10,6 +8,7 @@ import movie from "../assets/movie.png"
 import tv from "../assets/tv.png"
 import sqlCert from "../assets/sqlCert.png"
 import foodApp from "../assets/foodApp.png"
+import nikeApp from "../assets/nikeApp.png"
 
 export default function Work() {
   return (
@@ -22,26 +21,25 @@ export default function Work() {
             Work
           </p>
           <p className="py-6">// Check out some of my recent work</p>
+          <p className="text-red-500">My applications are all deployed on render. Web Services on the free instance type which I am using are automatically spun down after 15 minutes of inactivity. When a new request for a free service comes in, Render spins it up again so it can process the request. So, this will cause a delay in the response of the first request after a period of inactivity while the instance spins up. </p>
         </div>
 
         {/* Grid of all of my projects */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 h-full ">
 
-
-
           {/* Indivdual Card item/box */}
           <div
-            style={{ backgroundImage: `url(${commerce})` }}
+            style={{ backgroundImage: `url(${nikeApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <div className="text-sm font-bold text-white tracking-wider p-2">
-                E-Commerce Full Stack React JS Application, this app is deployed using Render. I used redux toolkit to handle my state values, and also used redux toolkit persist to persist my state. This app also has strapi and stripe configurations.
+              This is a Nike clone, another E-commerce application that is a full-stack application.  A user will be able to create an account and be able to order items and have those ordered items saved to a database. A user will also be able to save their favorite items. 
               </div>
               <div className="pt-8 text-center">
                 <a
-                  href="https://ecommerce-app-4n5y.onrender.com/"
+                  href="https://nike-eccomerce-wtls.onrender.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -50,7 +48,7 @@ export default function Work() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/favourflav2/E-Commerce-Backend-Render"
+                  href="https://github.com/favourflav2/Nike_App_Docker/tree/main/server"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -60,7 +58,7 @@ export default function Work() {
                 </a>
 
                 <a
-                  href="https://github.com/favourflav2/E-Commerce-Render-FrontEnd"
+                  href="https://github.com/favourflav2/Nike_App_Docker/tree/main/client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -71,6 +69,10 @@ export default function Work() {
               </div>
             </div>
           </div>
+
+
+
+          
 
           {/* Indivdual Card item/box */}
           <div
@@ -123,7 +125,7 @@ export default function Work() {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <div className="text-sm font-bold text-white tracking-wider p-2">
-              This a Tv app is basically the same as my Movie app. However I used typescript with react, and instead of using mongodb for my database I used PostgresQL. Have a look around, logged in users will be able to save shows and be able to view them
+              This a Tv app is basically the same as my Movie app. However I used typescript with react, and instead of using mongodb for my database I used PostgreSQL, I also have a docker compose file configured. Have a look around, logged in users will be able to save shows and be able to view them
               </div>
               <div className="pt-8 text-center">
                 <a
@@ -136,7 +138,7 @@ export default function Work() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/favourflav2/tvApp-Backend"
+                  href="https://github.com/favourflav2/TvApp_Full-Stack_Docker/tree/main/server"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -146,7 +148,7 @@ export default function Work() {
                 </a>
 
                 <a
-                  href="https://github.com/favourflav2/tvApp_Frontend"
+                  href="https://github.com/favourflav2/TvApp_Full-Stack_Docker/tree/main/client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -286,6 +288,49 @@ export default function Work() {
                 >
                   <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Backend Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Indivdual Card item/box */}
+          <div
+            style={{ backgroundImage: `url(${commerce})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-sm font-bold text-white tracking-wider p-2">
+                E-Commerce Full Stack React JS Application, this app is deployed using Render. I used redux toolkit to handle my state values, and also used redux toolkit persist to persist my state. This app also has strapi and stripe configurations. I built this app a while back, this was practice for my state management. Adding items to my cart, deleting them eventually checking out with stripe.
+              </div>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://ecommerce-app-4n5y.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/E-Commerce-Backend-Render"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                     Backend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/E-Commerce-Render-FrontEnd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
                   </button>
                 </a>
               </div>

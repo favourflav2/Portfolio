@@ -21,18 +21,13 @@ export default function About() {
           <div>
             <p>
               A little about myself, my name is Favour Chukwukelu. I'm from Las
-              Vegas, I've currently spent the last year and a half learning how
-              to code. In college I took an information systems class and that's
+              Vegas. In college I took an information systems class and that's
               where I was first introduced to programming. In this class we had
               to build and/or relations between data in excel. We had to write
               our own functions in cells in order to create these relations.
              <br />
              <br />
-              After this class I then did more research about programming and
-              found freecodecamp. After completing freecodecamp I then went
-              ahead and found the odin project. Where I learned about
-              implementing the javascript I learned into building web
-              applications. I'm still building apps everyday and learning too.
+             After this class I was intrigued with programming and coding, and I’ve taught myself how to build fullstack applications.
             </p>
           </div>
         </div>
