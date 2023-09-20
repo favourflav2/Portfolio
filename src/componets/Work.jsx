@@ -9,6 +9,7 @@ import tv from "../assets/tv.png"
 import sqlCert from "../assets/sqlCert.png"
 import foodApp from "../assets/foodApp.png"
 import nikeApp from "../assets/nikeApp.png"
+import huluApp from "../assets/hulu.png"
 
 export default function Work() {
   return (
@@ -59,6 +60,49 @@ export default function Work() {
 
                 <a
                   href="https://github.com/favourflav2/Nike_App_Docker/tree/main/client"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Frontend Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Indivdual Card item/box */}
+          <div
+            style={{ backgroundImage: `url(${huluApp})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="text-sm font-bold text-white tracking-wider p-2">
+              This is a Hulu clone using ThemovieDB API. A logged in user will be able to save movies and or tv shows to their saved items. And also be able to change their email and name. Please have a look around.
+              </div>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://bulu.onrender.com/Home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/favourflav2/HuluApp/tree/main/server"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                     Backend Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/favourflav2/HuluApp/tree/main/client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
