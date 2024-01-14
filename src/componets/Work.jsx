@@ -162,11 +162,11 @@ export default function Work() {
           </div>
 
           {/* Indivdual Card item/box */}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${tv})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+           
             <div className="opacity-0 group-hover:opacity-100">
               <div className="text-sm font-bold text-white tracking-wider p-2">
               This a Tv app is basically the same as my Movie app. However I used typescript with react, and instead of using mongodb for my database I used PostgreSQL, I also have a docker compose file configured. Have a look around, logged in users will be able to save shows and be able to view them
@@ -202,14 +202,14 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Indivdual Card item/box */}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${movie})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+           
             <div className="opacity-0 group-hover:opacity-100">
               <div className="text-sm font-bold text-white tracking-wider p-2">
               This app I used the movie database as my api to fetch movies. A logged in user will be able to save movies.
@@ -245,15 +245,15 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
           {/* Indivdual Card item/box */}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${chat})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+            
             <div className="opacity-0 group-hover:opacity-100">
               <div className="sm:text-sm text-[12px] font-bold text-white tracking-wider sm:p-2 p-5">
               This was a complicated app for me but I learned a lot. Watched a youtube video mainly on the backend implementation. Focusing on the mongodb relations within modals. Each chat group and message modal have relations with each other in order to make it easy to populate them and send them back to the frontend as a whole singular object.
@@ -293,14 +293,14 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Indivdual Card item/box */}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${college})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+            
             <div className="opacity-0 group-hover:opacity-100">
               <div className=" text-sm font-bold text-white tracking-wider p-2">
               This app I incorporated the College Board api, with this a user can search a college and retrieve valuable data. If a user is logged in and authenticated they can save colleges and view them in their dashboard.
@@ -336,14 +336,14 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Indivdual Card item/box */}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${commerce})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+            
             <div className="opacity-0 group-hover:opacity-100">
               <div className="text-sm font-bold text-white tracking-wider p-2">
                 E-Commerce Full Stack React JS Application, this app is deployed using Render. I used redux toolkit to handle my state values, and also used redux toolkit persist to persist my state. This app also has strapi and stripe configurations. I built this app a while back, this was practice for my state management. Adding items to my cart, deleting them eventually checking out with stripe.
@@ -379,7 +379,7 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
 
@@ -428,11 +428,11 @@ export default function Work() {
 
 
             {/* Indivdual Card item/box */}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${vitamins})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
+            
             <div className="opacity-0 group-hover:opacity-100">
               <div className=" text-sm font-bold text-white tracking-wider p-2">
               This is a static landing page little to none functionality using flexbox and reusable componenents. I made this with react and mui.
@@ -460,7 +460,7 @@ export default function Work() {
                 
               </div>
             </div>
-          </div>
+          </div> */}
 
             {/* Indivdual Card item/box */}
  
@@ -509,17 +509,17 @@ export default function Work() {
 
 
           {/* Indivdual Card item/box */}
-          <div
+          {/*<div
             style={{ backgroundImage: `url(${freeCode})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100">
+            
+             <div className="opacity-0 group-hover:opacity-100">
               <div className=" text-sm font-bold text-white tracking-wider p-2">
                 I have completed the JavaScript Algorithms and Data Structures section from freecodecamp. I periodically go back and practice in between me working on building apps.
               </div>
               <div className="pt-8 text-center">
-                {/* <a
+                 <a
                   href="https://bestanimesfavourweb.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -546,10 +546,10 @@ export default function Work() {
                   <button className="text-center  rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Backend Code
                   </button>
-                </a> */}
+                </a> 
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Indivdual Card item/box */}
           <div
