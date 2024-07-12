@@ -42,7 +42,7 @@ export default function Work() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/favourflav2/CarLoan/tree/main/server"
+                  href="https://github.com/favourflav2/CarLoan/tree/main"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -52,7 +52,7 @@ export default function Work() {
                 </a>
 
                 <a
-                  href="https://github.com/favourflav2/CarLoan/tree/main/client"
+                  href="https://github.com/favourflav2/CarLoan/tree/main"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
