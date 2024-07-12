@@ -8,6 +8,7 @@ import mongo from '../assets/mongo.jpg'
 import node from '../assets/node.png'
 import sql from "../assets/sql.png"
 import typescript from "../assets/typescript.svg.png"
+import docker from '../assets/dockerImg.png'
 
 export default function Skills() {
   return (
@@ -20,47 +21,52 @@ export default function Skills() {
             </div>
                             {/* Grid Below  */}
             <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col '>
                     <img src={jsLogo} alt="React" className='w-14 mx-auto mt-4'/>
                     <p className='my-4'>JAVASCRIPT</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col '>
                     <img src={cssLogo} alt="React" className='w-20 mx-auto'/>
                     <p className='my-4'>CSS</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col '>
                     <img src={htmlLogo} alt="React" className='w-20 mx-auto'/>
                     <p className='my-4'>HTML</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center '>
+                    <img src={docker} alt="Docker" className='w-20 mx-auto'/>
+                    <p className='my-4'>Docker</p>
+                </div>
+
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center '>
                     <img src={reactLogo} alt="React" className='w-20 mx-auto'/>
                     <p className='my-4'>REACT</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center '>
                     <img src={githubLogo} alt="React" className='w-20 mx-auto rounded-[40%]'/>
                     <p className='my-4'>GITHUB</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center '>
                     <img src={node} alt="React" className='w-20 mx-auto rounded-[40%]'/>
                     <p className='my-4'>NODEJS</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center '>
                     <img src={mongo} alt="React" className='w-20 mx-auto rounded-[40%]'/>
                     <p className='my-4'>MOOGOOSE</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center '>
                     <img src={sql} alt="React" className='w-20 mx-auto rounded-[40%]'/>
                     <p className='my-4'>PostgreSQL</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-center items-center '>
                     <img src={typescript} alt="React" className='w-20 mx-auto rounded-[40%]'/>
                     <p className='my-4'>Typescript</p>
                 </div>
